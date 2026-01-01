@@ -14,5 +14,6 @@ namespace StripeSaas.Data
         {
         }
         public DbSet<Subscription> Subscriptions { get; set; }
+        public DbSet<ProcessedEvent> ProcessedEvents { get; set; }
     }
 }
